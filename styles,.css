@@ -1,0 +1,38 @@
+/* Custom CSS */
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #d3d3d3 !important;
+}
+
+.container {
+    margin-top: 80px;
+    /* Adjust this based on the height of your navbar */
+}
+
+
+/* Responsive adjustments */
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
